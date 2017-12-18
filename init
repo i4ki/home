@@ -1,0 +1,11 @@
+# Windows nash config
+
+# required to build the rest of the environment
+setenv Path = $Path+";C:\\msys64\\usr\\bin"
+
+import "./join.sh"
+import "./os.sh"
+
+
+
+
