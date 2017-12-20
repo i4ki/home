@@ -1,11 +1,5 @@
-# Windows nash config
+# i4k's home
 
-# required to build the rest of the environment
-setenv Path = $Path+";C:\\msys64\\usr\\bin"
-
-import "./join.sh"
 import "./os.sh"
-
-
-
-
+import "./join.sh"
+import "./paths.sh"

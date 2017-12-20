@@ -1,7 +1,6 @@
 # setup paths accordingly to OS
 
-_, status <= pwd | grep -E "([A-Z]+):\\\\\\\\"
-if $status == "0" {
+if $OS == "windows" {
 	import "./paths_windows.sh"
 } else {
 	import "./paths_unix.sh"
